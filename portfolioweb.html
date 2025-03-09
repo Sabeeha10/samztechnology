@@ -1,0 +1,197 @@
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+</head>
+<style>
+        
+    ul{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 0%;
+        width: 97%;
+        height: 50px;
+
+    }
+    li{
+        list-style: none;
+        
+    }
+    
+    
+    nav a{
+        display: block;
+        text-decoration: none;
+        color: aliceblue;
+    }
+    nav a:hover{
+        font-weight: bold;
+    }
+    nav{
+        background-color: black;
+        
+    }
+    div{
+         width: 97%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    form{padding-top: 10px;
+        width: 500px;
+        height: 400px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 2px ;
+        background-color: rgb(102, 121, 128);
+        backdrop-filter: blur;
+        ;
+     
+    }
+    input{
+        margin-top: 5px;
+        padding: 10px;
+        border-radius: 5px;
+        border-color: transparent;
+    }
+    textarea{
+        margin-top: 5px;
+        width: 95%;
+        height: 100px;
+        padding: 10px;
+        border-radius: 5px;
+        border-color: transparent;
+    }
+    #btn{
+        text-align: center;
+        background-color: silver;
+        color: black;
+        border-radius: 10px;
+        border-color: transparent;
+    }
+    h2{
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    h3{
+        text-align: center;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    
+    body
+    {
+   background-image: url("ass2img.jpg");
+   width: 97%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .container{
+      margin-left: 15%;
+            }
+</style>
+<body>
+ 
+   
+    <nav>
+        <ul>
+            <li ><a href="#about">About us</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li > <a href="#skills">Skills</a></li>
+            <li > <a href="#contact">Contact</a></li>
+              
+             
+        </ul>
+    </nav>
+
+  <div class="container">  <h1> My Portfolio</h1>
+    <section id="about">
+        <h2> About us</h2>
+        <p>
+            Hi! I am Sabeeha Irshad. I am doing an Internship at <b>SAMZ Technology</b>
+        </p>
+    </section>
+    <section id="projects">
+        <h2> 
+            Projects
+        </h2>
+        <h3>E-Comerece website</h3>
+        <p>
+            Website that allows you to shop different accessories from same website
+
+        </p>
+        <h3>
+            Quiz APP
+        </h3>
+        <p>
+            App that helps you to brain storm over general knowledge based question
+                    </p>
+
+    </section>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <table border="2" style="width: 500px; height: 300px; text-align: center; border-collapse: collapse; margin-top: 20px;padding: 100px;">
+            <tr>
+                <th>Skill</th>
+                <th>Proficiency</th>
+               
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Intermediate</td>
+                
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Intermediate</td>
+                
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Beginner</td>
+               
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Beginner</td>
+                 
+            </tr>
+        </table>
+    </section>
+    <section id="contact">
+       
+        <form>
+            <h2>
+                Contact us
+            </h2>
+            <input type="text" name="Name" placeholder="Your name" required><br>
+            <input type="email" name="Email" placeholder="Your Email"><br>
+            <textarea name="message" placeholder="Your Message" rows="3" required></textarea><br>
+            <input id="btn" type="submit" value="Send Message">
+        </form>
+    </section>
+    <video width="500" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        
+     Your browser does not support the video tag. 
+      </video>
+    </div>
+</body>
+</html>
